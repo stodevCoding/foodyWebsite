@@ -1,4 +1,5 @@
 // Gatsby supports TypeScript natively!
+// @ts-ignore
 import React from "react"
 import { PageProps, Link } from "gatsby"
 
