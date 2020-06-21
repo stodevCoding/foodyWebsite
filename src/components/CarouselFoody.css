@@ -1,0 +1,11 @@
+.containerSlide {
+    width: 100%;
+    margin: auto;
+    z-index: 20;
+}
+
+.containerSlide img {
+    width: 600px;
+
+
+}

@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
-
+import CarouselFoody from '../components/carouselFoody';
 import Layout from "../components/layout";
-import Image from "../components/image";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -13,37 +11,39 @@ const IndexPage = () => (
   <img
 className="Logo"
 src={require("../images/NouveauLogoFoodyWhite.svg")}
-alt="logo"
-width="410"
-  />
+alt="logo foody"
+width="360"   />
+
 <div className="pitchFoody">
-    <p> Votre prochain compagnon culinaire,</p>{" "}
-  <p> Qui vous obéit au doigt et la voix,</p>{" "}
-  <p>{"pour vous inspirer à l'élaboration des repas"}</p>
+  <CarouselFoody/>
 </div>
-
-<div className="mockUpFoody">
-
-  </div>
-
-<div>
-<Link to="/page-2/">page 2 </Link>{" "}
-</div>{" "}
 <div className="ContainerLogos">
-  <h5> Foody is built with </h5>{" "}
+  <h7> Foody est développé avec </h7>{" "}
 <div className="Logos">
-  <img src={require("../images/logo-affinity-designer.svg")} width="50" />
-  <img src={require("../images/logo-swiftui.svg")} width="50" />
-  <img src={require("../images/logo-swift.png")} width="50" />
-  <img src={require("../images/logo-react.png")} width="50" />
-  <img src={require("../images/logo-docker.svg")} width="50" />
-  <img src={require("../images/logo-python.svg")} width="50" />
+  <div className="logoBox">
+  <img id="affinitydesigner" src={require("../images/logo-affinity-designer.svg")} alt="logo affinity designer" width="50" />
+  </div>
+  <div className="logoBox">
+  <img id="swiftui" src={require("../images/logo-swiftui.svg")} alt="logo swift u i" width="50" />
+  </div>
+  <div className="logoBox">
+  <img id="swift" src={require("../images/logo-swift.png")}  alt="logo swift" width="50" />
+  </div>
+  <div className="logoBox">
+  <img id="react" src={require("../images/logo-react.png")} alt="logo react" width="50" />
+  </div>
+  <div className="logoBox">
+  <img id="docker" src={require("../images/logo-docker.svg")} alt="logo docker" width="50" />
+  </div>
+  <div className="logoBox">
+  <img id="python" src={require("../images/logo-python.svg")} alt="logo python" width="50" />
+  </div>
   </div>{" "}
   </div>{" "}
   <div className="soonStore">
-  <img src={require("../images/tileSoonAppStore.svg")} width="250" />
+  <img src={require("../images/tileSoonAppStore.svg")} alt="Bientot sur l'App Store" width="250" />
   </div>{" "}
-  
+
   </div>{" "}
   </div>{" "}
   </Layout>

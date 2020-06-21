@@ -14,9 +14,10 @@ values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5
   </svg>
   <div className="HeaderGroup">
   <Link to="/"><img src={require("../images/NouveauLogoFoodyBlack.svg")} alt="logo" width="90"/></Link>
+  <Link to="/page-2/">Modèle Économique</Link>{" "}
   <Link to="/">Empty</Link>
   <Link to="/">Empty</Link>
-  <Link to="/">Empty</Link>
+
   <Link to="/"><button>Empty</button></Link>
 
   </div>

@@ -1,5 +1,4 @@
 //import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import "../components/Footer.css"
 
@@ -16,13 +15,13 @@ values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5
   />
   </path>{" "}
   </svg>
-
+<div id="footerText">
           © {new Date().getFullYear()} Foody, Built by Anthony Custodio with ReactJS &
 {` `}
 <a href="https://www.gatsbyjs.org">Gatsby</a>
 {` `}
 - Logo inspired by Mathis Timotei
-
+</div>
 </div>
 
 
