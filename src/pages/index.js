@@ -9,7 +9,7 @@ import SEO from "../components/seo";
     const [windowExist, setWindowExist] = useState(false);
     useEffect(() => {
       if (typeof window !== "undefined") {
-        setWindowExist(true);
+        setWindowExist(true);npm
       }
     }, []);
     return (
