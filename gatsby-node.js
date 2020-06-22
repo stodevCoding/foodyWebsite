@@ -4,7 +4,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       module: {
         rules: [
           {
-            test: /bad-module/,
+            test: /react-slideshow-image/,
             use: loaders.null(),
           },
         ],
