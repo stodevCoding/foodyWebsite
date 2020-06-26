@@ -21,7 +21,7 @@ import SEO from "../components/seo";
     <div className="HeroGroup">
     <img
   className="Logo"
-  src={require("../images/NouveauLogoFoodyWhite.svg")}
+  src={require("../images/NouveauLogoFoodyWhite.png")}
   alt="logo foody"
   width="360"   />
 

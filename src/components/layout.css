@@ -12,24 +12,65 @@ a {
 }
 
 .Hero {
-  background: url("../images/photo-of-person-cutting-bell-peppers-3621212.jpg") center;
+  background: url("../images/photo-of-person-cutting-bell-peppers-3621212.jpg") center scroll;
   height: 1520px;
   background-size: cover;
   position: relative;
 }
+
 .Hero2 {
-  background: url("../images/chicken_curry.jpg") center;
+  background: url("../images/chicken_curry.jpg") center fixed;
   height: 1520px;
   background-size: cover;
   position: relative;
+}
+
+
+.Hero3 {
+  background: url("../images/beef-7680x4320-steak-food-cooking-grill-vegetables-meal-meat-tomato-408.jpg") center fixed;
+  height: 1520px;
+  background-size: cover;
+  position: relative;
+}
+
+
+.Hero4 {
+  background: url("../images/legumes.jpg") center fixed;
+  background-size: cover;
+  position: relative;
+}
+.HeroGroup {
+
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 100px 50px;
+  text-align: center;
+
 }
 .HeroGroup2 {
   margin: 0 auto;
   max-width: 100%;
-  padding: 150px 50px;
+  padding: 100px 50px;
   text-align: center;
 
 }
+
+.HeroGroup3 {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 100px 200px;
+  text-align: center;
+
+}
+
+.HeroGroup4 {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 100px 200px;
+  text-align: center;
+
+}
+
 .businessFoody {
   background-color: rgba(0, 0, 0, 0.45);
   margin: 40px 200px 10px 200px;
@@ -37,12 +78,18 @@ a {
   border-radius: 30px;
 }
 
-.HeroGroup {
-  margin: 0 auto;
-  max-width: 900px;
-  padding: 150px 50px;
-  text-align: center;
+.auditFoody {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 40px 50px 50px 50px;
+  padding: 50px;
+  border-radius: 30px;
+}
 
+.manualFoody{
+  background-color: rgba(0, 0, 0, 0.45);
+  padding-top: 5px;
+  margin-top: 25px;
+  border-radius: 30px;
 }
 
 .pitchFoody , .mockUpFoody{
@@ -52,6 +99,7 @@ a {
   border-radius: 30px;
   margin-top: 50px;
 }
+
 .Logo{
   margin-top: 70px;
 }
@@ -70,7 +118,35 @@ a {
   margin-top: 70px;
   z-index: 30;
 }
-.Hero, .Hero2, .Logo, .ContainerLogos{
+
+.HeroGroup3 a, .HeroGroup4 a {
+  color: black;
+  font-weight: 700;
+}
+
+.HeroGroup3 button, .HeroGroup4 button {
+  margin-top: 65px;
+  padding: 8px 20px;
+  font-size: 40px;
+  background: #56CCF2;
+  border: none;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeroGroup4 button {
+  margin-bottom: 100px;
+}
+.HeroGroup3 button:hover, .HeroGroup4 button:hover{
+  background: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+  transform: translateY(-3px) rotateY(20deg);
+}
+
+.Hero, .Hero2, .Hero3, .Hero4, .Logo, .ContainerLogos{
 
   color: white;
   font-size: 50px;
@@ -84,7 +160,7 @@ a {
 
 }
 
-.Hero p, .Hero2 p {
+.Hero p, .Hero2 p, .Hero3 p, .Hero4 p {
   color: rgba(255,255,255, 0.8);
   font-size: 30px;
   line-height: 1.5;

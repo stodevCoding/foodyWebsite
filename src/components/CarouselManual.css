@@ -1,0 +1,11 @@
+.containerSlideManual {
+    width: 85%;
+    margin: auto;
+    z-index: 20;
+}
+
+.containerSlideManual img {
+
+    width: 1000px;
+
+}

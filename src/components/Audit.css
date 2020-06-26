@@ -1,0 +1,7 @@
+.introAudit {
+    font-style: italic;
+}
+
+.optimAudit, .securiteAudit {
+    text-align: justify;
+}

@@ -5,7 +5,7 @@ import "./Header.css"
 
 const Header = ({ siteTitle }) => (
   <div className="Header">
-  <div id="rectangle"></div>
+
   <svg id="topWave" width="100%" height="172" fill="none" viewBox="0 0 100% 172">
   <path fill="white">
   <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="30s"
@@ -13,11 +13,11 @@ values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5
   </path>
   </svg>
   <div className="HeaderGroup">
-  <Link to="/"><img src={require("../images/NouveauLogoFoodyBlack.svg")} alt="logo" width="90"/></Link>
-  <Link to="/page-2/">Modèle Économique</Link>{" "}
-
-
-
+  <Link to="/"><img src={require("../images/NouveauLogoFoodyBlack.png")} alt="logo" width="90"/></Link>
+  <Link to="/modele_economique/">Modèle Économique</Link>{" "}
+<Link to="/page_manual_user/">Manuel Utilisateur</Link>{" "}
+<Link to="/page_doc_technique/">Documentation Technique</Link>{" "}
+<Link to="/page_perf/">Audit de Performance et Sécurité </Link>{" "}
   </div>
 
   </div>
