@@ -32,22 +32,39 @@ import SEO from "../components/seo";
     <h7> Foody est développé avec </h7>{" "}
   <div className="Logos">
     <div className="logoBox">
-    <img id="affinitydesigner" src={require("../images/logo-affinity-designer.svg")} alt="logo affinity designer" width="50" />
+    <img id="affinitydesigner" className="image" src={require("../images/logo-affinity-designer.svg")} alt="Affinity Designer" width="50" />
+      <div class="middle">
+      <div class="text">Affinity Designer</div>
+    </div>
     </div>
     <div className="logoBox">
-    <img id="swiftui" src={require("../images/logo-swiftui.svg")} alt="logo swift u i" width="50" />
+    <img id="swiftui" className="image" src={require("../images/logo-swiftui.svg")} alt="Swift UI" width="50" /><div class="middle">
+      <div class="text">Swift UI</div>
+    </div>
     </div>
     <div className="logoBox">
-    <img id="swift" src={require("../images/logo-swift.png")}  alt="logo swift" width="50" />
+    <img id="swift" className="image" src={require("../images/logo-swift.png")}  alt="Swift" width="50" />
+      <div class="middle">
+      <div class="text">Swift</div>
+    </div>
     </div>
     <div className="logoBox">
-    <img id="react" src={require("../images/logo-react.png")} alt="logo react" width="50" />
+    <img id="react" className="image" src={require("../images/logo-react.png")} alt="ReactJS" width="50" />
+      <div class="middle">
+      <div class="text">ReactJS</div>
+    </div>
     </div>
     <div className="logoBox">
-    <img id="docker" src={require("../images/logo-docker.svg")} alt="logo docker" width="50" />
+    <img id="docker" className="image"src={require("../images/logo-docker.svg")} alt="Docker" width="50" />
+      <div class="middle">
+      <div class="text">Docker</div>
+    </div>
     </div>
     <div className="logoBox">
-    <img id="python" src={require("../images/logo-python.svg")} alt="logo python" width="50" />
+    <img id="python" className="image" src={require("../images/logo-python.svg")} alt="Python" width="50" />
+      <div class="middle">
+      <div class="text">Python</div>
+    </div>
     </div>
     </div>{" "}
     </div>{" "}
