@@ -25,7 +25,7 @@ width="360"   />
 </div>
 
 </div>
-<button><a href={downloadFile} download>Télécharger le dossier complet en PDF</a></button>
+<button><a href={downloadFile} download>Télécharger le dossier texte en PDF</a></button>
 </div>{" "}
 </div>{" "}
 </Layout>

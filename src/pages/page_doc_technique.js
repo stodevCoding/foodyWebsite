@@ -83,7 +83,7 @@ Lors de la mise en bêta-test via la plateforme Test Flight mise à disposition 
 
 </div>
 <div className="listButton">
-    <button id="btn1"><a href={downloadFile} download>Télécharger le dossier complet en PDF</a></button>
+    <button id="btn1"><a href={downloadFile} download>Télécharger le dossier texte en PDF</a></button>
 </div>
 <div className="listButton"><button id="btn2"><a href={downloadSchema} download>Schéma de l'architecture de Foody</a></button></div>
 <div className="listButton"><button id="btn3"><a href="https://stodevcoding.github.io/diagramSimpleFoody/">Diagramme de classe</a></button></div>

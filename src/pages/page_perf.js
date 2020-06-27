@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import downloadFile from '../file_download/dossier_complet_sprint_3.pdf'
+import downloadCaptJmeter from '../file_download/capture_jmeter.png'
+import downloadLogJmeter from '../file_download/jmeterlog.png'
 import "../components/Audit.css"
 
 const PagePerf  = () => (
@@ -50,8 +52,13 @@ Comme le service est containérisé dans un container Docker, il est possible de
 </div>
 
 </div>
+<div className="listButton">
+  <button id="btn1"><a href={downloadFile} download>Télécharger le dossier texte en PDF</a></button>
 </div>
-<button><a href={downloadFile} download>Télécharger le dossier complet en PDF</a></button>
+<div className="listButton"><button id="btn2"><a href={downloadCaptJmeter} download>Aperçu JMeter serveur disponible</a></button></div>
+<div className="listButton"><button id="btn3"><a href= {downloadLogJmeter}>Log JMeter serveur surchargé</a></button></div>
+</div>
+
 </div>{" "}
 </div>{" "}
 </Layout>
