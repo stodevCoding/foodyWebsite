@@ -5,3 +5,46 @@
 .optimAudit, .securiteAudit {
     text-align: justify;
 }
+
+.listButton {
+    width: 100%;
+}
+
+
+.listButton a {
+    color: black;
+    font-weight: 700;
+}
+
+.listButton button {
+    margin-top: 65px;
+    padding: 8px 20px;
+    font-size: 40px;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.listButton button {
+    margin-bottom: 0px;
+}
+#btn1:hover, #btn2:hover, #btn3:hover{
+    background: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    transform: translateY(-3px) rotateY(20deg);
+}
+
+#btn1 {
+    background: indianred;
+}
+
+#btn2 {
+    background: coral;
+}
+
+#btn3 {
+    background: lightpink;
+}

@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import downloadFile from '../file_download/dossier_complet_sprint_3.pdf'
+import downloadSchema from '../file_download/architcture_detaillee.png'
 import "../components/Audit.css"
 
 const PageDocTech  = () => (
@@ -82,11 +82,18 @@ Lors de la mise en bêta-test via la plateforme Test Flight mise à disposition 
 
 
 </div>
+<div className="listButton">
+    <button id="btn1"><a href={downloadFile} download>Télécharger le dossier complet en PDF</a></button>
 </div>
-<button><a href={downloadFile} download>Télécharger le dossier complet en PDF</a></button>
-<Link to="/diagram.html/">Audit de Performance et Sécurité </Link>{" "}
+<div className="listButton"><button id="btn2"><a href={downloadSchema} download>Schéma de l'architecture de Foody</a></button></div>
+<div className="listButton"><button id="btn3"><a href="https://stodevcoding.github.io/diagramSimpleFoody/">Diagramme de classe</a></button></div>
+
+</div>
+</div>
+
+
 </div>{" "}
-</div>{" "}
+
 </Layout>
 )
 
